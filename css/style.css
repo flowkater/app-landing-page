@@ -1,0 +1,28 @@
+.wrapper {
+  background-image: linear-gradient(127deg, #2c2e65, #2a2c5d 23%, #000000);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.intro-logo {
+  width: 80px;
+}
+
+.lead-description {
+  margin-top: 100px;
+}
+
+.download-btn-area .btn-download {
+  width: 173px;
+  border-radius: 100px;
+  background-color: #171837;
+  box-shadow: 0 0 17px 0 #50E3C2;
+  border: solid 3px #50E3C2;
+  color: #50E3C2;
+}
+
+.download-btn-area a:hover {
+  opacity: 0.8;
+}
