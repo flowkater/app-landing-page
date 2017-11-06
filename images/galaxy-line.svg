@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="969" height="336" viewBox="0 0 969 336">
+    <defs>
+        <linearGradient id="a" x1="50%" y1="30.415%" y2="79.319%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#171837"/>
+        </linearGradient>
+        <linearGradient id="b" x1="50%" x2="50%" y1="0%" y2="74.52%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#171837"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(0 249)">
+            <ellipse cx="2.957" cy="2.951" fill="#FFF" rx="2.957" ry="2.951"/>
+            <path stroke="url(#a)" stroke-linecap="square" d="M2.534 2.53l33.118 28.956L98 86"/>
+        </g>
+        <g transform="rotate(-73 270.172 105.983)">
+            <ellipse cx="3.388" cy="3.351" fill="#FFF" rx="3.388" ry="3.351"/>
+            <path stroke="url(#b)" stroke-linecap="square" d="M4.235 4.19l23.508 20.054L72 62"/>
+        </g>
+        <g transform="translate(300 -13)">
+            <g transform="rotate(49 179.394 427.149)">
+                <ellipse cx="5.75" cy="5.746" fill="#FFF" rx="5.75" ry="5.746"/>
+                <path stroke="url(#b)" stroke-linecap="square" d="M6.572 7.482l38.76 37.635 72.969 70.854"/>
+            </g>
+            <g transform="rotate(129 159.42 159.358)">
+                <ellipse cx="5.657" cy="5.653" fill="#FFF" rx="5.657" ry="5.653"/>
+                <path stroke="url(#b)" stroke-linecap="square" d="M5.672 6.457l33.45 32.48 62.976 61.15"/>
+            </g>
+            <g transform="rotate(176 141.007 81.375)">
+                <ellipse cx="4.251" cy="4.248" fill="#FFF" rx="4.251" ry="4.248"/>
+                <path stroke="url(#b)" stroke-linecap="square" d="M4.266 4.856l25.157 24.428 47.36 45.988"/>
+            </g>
+            <g transform="rotate(125 89.718 109.844)">
+                <ellipse cx="3.543" cy="3.545" fill="#FFF" rx="3.543" ry="3.545"/>
+                <path stroke="url(#b)" stroke-linecap="square" d="M3.552 4.049L24.5 24.414l39.438 38.341"/>
+            </g>
+            <g transform="rotate(116 52.194 108.18)">
+                <ellipse cx="1.8" cy="1.516" fill="#FFF" rx="1.8" ry="1.516"/>
+                <path stroke="url(#b)" stroke-linecap="square" d="M2.816 2.367l16.607 11.908 31.265 22.417"/>
+            </g>
+            <g transform="rotate(101 16.276 119.797)">
+                <ellipse cx="3.737" cy="3.757" fill="#FFF" rx="3.737" ry="3.757"/>
+                <path stroke="url(#b)" stroke-linecap="square" d="M3.838 4.295L44.444 43.03 88.966 85.5l31.925 30.456"/>
+            </g>
+            <circle cx="32.5" cy="199.5" r="3.5" fill="#FFF"/>
+        </g>
+        <g>
+            <g transform="rotate(-73 624.575 -386.88)">
+                <ellipse cx="7.194" cy="6.661" fill="#FFF" rx="7.194" ry="6.661"/>
+                <path stroke="url(#b)" stroke-linecap="square" d="M8.222 7.613l48.49 38.294L148 118"/>
+            </g>
+            <g transform="rotate(-73 489.933 -516.8)">
+                <ellipse cx="5.882" cy="5.419" fill="#FFF" rx="5.882" ry="5.419"/>
+                <path stroke="url(#b)" stroke-linecap="square" d="M6.722 6.194l39.644 31.154L121 96"/>
+            </g>
+        </g>
+    </g>
+</svg>

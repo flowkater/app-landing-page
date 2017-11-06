@@ -1,5 +1,16 @@
 .wrapper {
-  background-image: linear-gradient(127deg, #2c2e65, #2a2c5d 23%, #000000);
+  background: linear-gradient(127deg, #2c2e65, #2a2c5d 23%, #000000);
+  /* height: 630px; */
+  position: relative;
+}
+
+.galaxy-bg {
+  background: url("/images/galaxy-line.svg") no-repeat right top;
+  object-fit: contain;
+}
+
+.wave-img {
+  width: 100%;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -25,4 +36,17 @@
 
 .download-btn-area a:hover {
   opacity: 0.8;
+}
+
+.mobile-screen {
+  position: relative;
+  width: 90%;
+  z-index: 150;
+}
+
+.wave-img-section {
+  z-index: 100;
+  width: 100%;
+  position: absolute;
+  bottom: -5px;
 }
