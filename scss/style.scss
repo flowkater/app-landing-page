@@ -1,0 +1,192 @@
+@import 'breakpoint';
+
+$mobile: 768px;
+$tablet: 992px;
+$desktop: 1200px;
+
+.header-intro {
+    background: linear-gradient(127deg, #2c2e65, #2a2c5d 23%, #000000);
+    height: 700px;
+    position: relative;
+}
+
+.header-intro .galaxy-bg {
+    background: url("/images/galaxy-line.svg") no-repeat right top;
+    object-fit: contain;
+}
+
+.header-intro .navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.header-intro .intro-logo {
+    width: 80px;
+}
+
+.header-intro .lead-description {
+    margin-top: 100px;
+}
+
+.header-intro .download-btn-area .btn-download {
+    width: 173px;
+    border-radius: 100px;
+    background-color: #171837;
+    box-shadow: 0 0 17px 0 #50E3C2;
+    border: solid 3px #50E3C2;
+    color: #50E3C2;
+}
+
+.header-intro .download-btn-area a:hover {
+    opacity: 0.8;
+}
+
+.header-intro .mobile-screen {
+    position: relative;
+    width: 90%;
+    z-index: 150;
+}
+
+.header-intro .wave-img-section {
+    z-index: 100;
+    width: 100%;
+    position: absolute;
+    bottom: -5px;
+}
+
+.header-intro .wave-img {
+    width: 100%;
+}
+
+.main-features {
+    @include breakpoint(max-width $mobile) {
+        margin-top: 70%;
+    }
+
+    background-image: linear-gradient(to bottom, #ffffff, #f8f8f8);
+}
+
+.main-features .number-text{
+    display: inline-block;
+    text-align: left;
+    color: #6250e3;
+    line-height: 0.75;
+    font-size: 3.3rem;
+}
+
+.main-features .feature-title {
+    display: inline-block;
+    color: #383d46;
+    font-size: 2rem;
+}
+
+.main-features .feature-description {
+    font-size: 1rem;
+    color: #939393;
+    text-align: left;
+}
+
+.many-features .title-text {
+    text-align: center;
+    color: #383d46;
+    font-size: 2.5rem;
+}
+
+.many-features .featureone {
+    text-align: center;
+    color: #383d46;
+}
+
+.many-features .mfeature-name {
+    font-size: 1.3rem;
+}
+
+.main-features .featureone .mfeature-icon {
+    font-size: 1.3rem;
+}
+
+.review {
+    background: url("/images/galaxy-one-line.svg") no-repeat right top, linear-gradient(125deg, #2f3167, #191a37 65%, #000000);
+}
+
+.review .title-text {
+    text-align: center;
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+
+.review .review-box {
+    width: 95%;
+    height: 100%;
+    border-radius: 8px;
+    background-image: linear-gradient(296deg, #ffffff, #f8f8f8);
+    box-shadow: 0 6px 18px 2px rgba(255, 255, 255, 0.5);
+    padding: 20px;
+}
+
+.review .review-box .review-text {
+    color: #383d46;
+}
+
+.review .review-box .review-author {
+    color: #383d46;
+    text-align: right;
+}
+
+.cta {
+    background: linear-gradient(to right, #e4e4e4, #ffffff);
+}
+
+.cta .title-text {
+    text-align: center;
+    text-align: center;
+    color: #171837;
+    font-size: 2rem;
+}
+
+.cta .title-together {
+    line-height: 100%;
+    text-align: center;
+    color: #50E3c2;
+    font-size: 3rem;
+}
+
+.cta .appstore {
+    width: 100%;
+}
+
+.cta .playstore {
+    width: 100%;
+}
+
+.bottom {
+    background-color: #171837;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.bottom .nav-link {
+    color: #ffffff;
+}
+
+.bottom .nav {
+    margin: auto;
+}
+
+
+/*
+    letsget23 Added, From here.
+*/
+
+.main-features {
+    img {
+        width: 100%;
+    }
+
+    .feature-detail {
+        margin: 0 auto;
+    }
+
+    .feature-detail:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+}
