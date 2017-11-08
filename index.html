@@ -44,7 +44,7 @@
             <a class="btn btn-default btn-download" href="#">지금 다운로드</a>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 hidden-xs-down">
           <img src="images/mobile-screen.png" srcset="images/mobile-screen@2x.png 2x, images/mobile-screen@3x.png 3x" alt="todait" class="mobile-screen">
         </div>
       </div>
@@ -59,7 +59,7 @@
       <!-- 01 -->
       <div class="feature-detail row my-5">
         <div class="col-md-6 image-wrapper">
-          <img src="http://via.placeholder.com/360x360">
+          <img src="/images/001.png">
         </div>
         <div class="col-md-6 my-5 feature-description-wrapper">
           <div class="n1-title mt-5">
@@ -78,9 +78,9 @@
       <!-- 02 -->
       <div class="feature-detail row my-5">
         <div class="col-md-6 image-wrapper">
-            <img src="http://via.placeholder.com/360x360">
+            <img src="/images/002.png">
         </div>
-        <div class="col-md-6 feature-description-wrapper">
+        <div class="col-md-6 feature-description-wrapper mt-5">
           <div class="n1-title mt-5">
             <div class="number-text">02</div>
             <div class="feature-title ml-2">스스로를 평가하세요</div>
@@ -99,7 +99,7 @@
       <!-- 03 -->
       <div class="feature-detail row my-5">
         <div class="col-md-6 image-wrapper">
-          <img src="http://via.placeholder.com/360x360">
+          <img src="/images/003.png">
         </div>
         <div class="col-md-6 feature-description-wrapper">
           <div class="n1-title mt-5">
@@ -132,9 +132,9 @@
         </div>
         <div class="row py-2 mt-5">
           <div class="col-md-4 featureone my-2">
-            <div class="mfeature-icon"><i class="fa fa-lg fa-bell"></i></div>
-            <div class="mfeature-name mt-3">알림</div>
-            <div class="mfeature-description">매일매일 정해진 시각에 알림을 정해서 잊지말고 목표를 진행하세요.</div>
+            <div class="mfeature-icon"><i class="fa fa-lg fa-tag"></i></div>
+            <div class="mfeature-name mt-3">카테고리</div>
+            <div class="mfeature-description">여러 목표를 카테고라이징하세요. 내가 치우치지 않게 목표를 향해 가고 있는지 알기 쉽습니다.</div>
           </div>
           <div class="col-md-4 featureone my-2">
             <div class="mfeature-icon"><i class="fa fa-lg fa-bell"></i></div>
@@ -142,43 +142,46 @@
             <div class="mfeature-description">매일매일 정해진 시각에 알림을 정해서 잊지말고 목표를 진행하세요.</div>
           </div>
           <div class="col-md-4 featureone my-2">
-            <div class="mfeature-icon"><i class="fa fa-lg fa-bell"></i></div>
-            <div class="mfeature-name mt-3">알림</div>
-            <div class="mfeature-description">매일매일 정해진 시각에 알림을 정해서 잊지말고 목표를 진행하세요.</div>
+            <div class="mfeature-icon"><i class="fa fa-lg fa-check-square"></i></div>
+            <div class="mfeature-name mt-3">할일</div>
+            <div class="mfeature-description">장기 계획말고 간단한 할일을 추가하고 쉽게 쉽게 체크하세요.</div>
           </div>
         </div>
         <div class="row py-2">
           <div class="col-md-4 featureone my-2">
-            <div class="mfeature-icon"><i class="fa fa-lg fa-bell"></i></div>
-            <div class="mfeature-name mt-3">알림</div>
-            <div class="mfeature-description">매일매일 정해진 시각에 알림을 정해서 잊지말고 목표를 진행하세요.</div>
+            <div class="mfeature-icon"><i class="fa fa-lg fa-sticky-note"></i></div>
+            <div class="mfeature-name mt-3">메모</div>
+            <div class="mfeature-description">공부한 상세 내용을 기록하세요.</div>
           </div>
           <div class="col-md-4 featureone my-2">
-            <div class="mfeature-icon"><i class="fa fa-lg fa-bell"></i></div>
-            <div class="mfeature-name mt-3">알림</div>
-            <div class="mfeature-description">매일매일 정해진 시각에 알림을 정해서 잊지말고 목표를 진행하세요.</div>
+            <div class="mfeature-icon"><i class="fa fa-lg fa-leaf"></i></div>
+            <div class="mfeature-name mt-3">피드</div>
+            <div class="mfeature-description">하루의 타임라인을 돌아볼 수 있습니다.</div>
           </div>
           <div class="col-md-4 featureone my-2">
-            <div class="mfeature-icon"><i class="fa fa-lg fa-bell"></i></div>
-            <div class="mfeature-name mt-3">알림</div>
-            <div class="mfeature-description">매일매일 정해진 시각에 알림을 정해서 잊지말고 목표를 진행하세요.</div>
+            <div class="mfeature-icon"><i class="fa fa-lg fa-calendar-check-o"></i></div>
+            <div class="mfeature-name mt-3">캘린더</div>
+            <div class="mfeature-description">일별, 주별, 월별 나의 목표 일정을 제대로 확인해보세요.</div>
           </div>
         </div>
         <div class="row py-2 mb-5">
           <div class="col-md-4 featureone my-2">
-            <div class="mfeature-icon"><i class="fa fa-lg fa-bell"></i></div>
-            <div class="mfeature-name mt-3">알림</div>
-            <div class="mfeature-description">매일매일 정해진 시각에 알림을 정해서 잊지말고 목표를 진행하세요.</div>
+            <div class="mfeature-icon"><i class="fa fa-lg fa-bar-chart"></i></div>
+            <span class="badge badge-pill badge-primary premium-badge">Premium</span>
+            <div class="mfeature-name mt-3">리포트</div>
+            <div class="mfeature-description">인공지능 LISA가 나의 데이터를 보고 맞춤형 피드백을 줍니다.</div>
           </div>
           <div class="col-md-4 featureone my-2">
-            <div class="mfeature-icon"><i class="fa fa-lg fa-bell"></i></div>
-            <div class="mfeature-name mt-3">알림</div>
-            <div class="mfeature-description">매일매일 정해진 시각에 알림을 정해서 잊지말고 목표를 진행하세요.</div>
+            <div class="mfeature-icon"><i class="fa fa-lg fa-random"></i></div>
+            <span class="badge badge-pill badge-primary premium-badge">Premium</span>
+            <div class="mfeature-name mt-3">브리핑 패널</div>
+            <div class="mfeature-description">어제 하루를 요약하고 오늘 계획을 유연하게 재조직해보세요.</div>
           </div>
           <div class="col-md-4 featureone my-2">
-            <div class="mfeature-icon"><i class="fa fa-lg fa-bell"></i></div>
-            <div class="mfeature-name mt-3">알림</div>
-            <div class="mfeature-description">매일매일 정해진 시각에 알림을 정해서 잊지말고 목표를 진행하세요.</div>
+            <div class="mfeature-icon"><i class="fa fa-lg fa-sun-o"></i></div>
+            <span class="badge badge-pill badge-primary premium-badge">Premium</span>
+            <div class="mfeature-name mt-3">미션</div>
+            <div class="mfeature-description">기상, 시작, 마감 인증을 해보세요. 그룹원들과도 공유할 수 있습니다.</div>
           </div>
         </div>
       </div>

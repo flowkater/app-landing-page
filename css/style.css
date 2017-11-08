@@ -28,6 +28,7 @@
   opacity: 0.8; }
 
 .header-intro .mobile-screen {
+  margin-left: 10%;
   position: relative;
   width: 90%;
   z-index: 150; }
@@ -75,6 +76,11 @@
 
 .many-features .mfeature-name {
   font-size: 1.3rem; }
+
+  .premium-badge {
+    color: #ffffff;
+    background-color: #6250e3;
+  }
 
 .main-features .featureone .mfeature-icon {
   font-size: 1.3rem; }
@@ -139,9 +145,10 @@
 */
 .main-features img {
   width: 100%; }
+
 .main-features .feature-detail {
   margin: 0 auto; }
-.main-features .feature-detail:nth-child(odd) {
+.main-features .feature-detail:nth-child(even) {
   flex-direction: row-reverse; }
 
 /*# sourceMappingURL=style.css.map */
